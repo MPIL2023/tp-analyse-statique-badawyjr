@@ -150,7 +150,7 @@
               <configLocation>src/checkstyle/nohttp-checkstyle.xml</configLocation>
               <suppressionsLocation>src/checkstyle/nohttp-checkstyle-suppressions.xml</suppressionsLocation>
               <encoding>UTF-8</encoding>
-              <sourceDirectories>${basedir}</sourceDirectories>
+              <sourceDirectories>${basedir}/spring-petclinic</sourceDirectories>
               <includes>**/*</includes>
               <excludes>**/.git/**/*,**/.idea/**/*,**/target/**/,**/.flattened-pom.xml,**/*.class</excludes>
             </configuration>
